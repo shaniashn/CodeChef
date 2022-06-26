@@ -9,13 +9,14 @@ int main(){
 	while(t--){
 	cin >> x >> y;
 	
-    	if(x == y){
-    	    cout << "ANY" << endl;
-    	}
-    	else if(x > y){
-    	    cout << "SECOND" << endl;
-    	}
-    	else{
-    	    cout << "FIRST" << endl;
-    	} 
+		if(x == y){
+		    cout << "ANY" << endl;
+		}
+		else if(x > y){
+		    cout << "SECOND" << endl;
+		}
+		else{
+		    cout << "FIRST" << endl;
+		} 
+	}
 }
